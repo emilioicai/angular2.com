@@ -1,0 +1,118 @@
+    <nav class="navbar navbar-fixed-top header">
+      <div class="col-md-12">
+            <div class="navbar-header">
+              <a href="/" class="navbar-brand" style="padding-top: 10px;"><img src="img/angular.png" height="30px"/>angular2.com</a>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse1">
+              <i class="glyphicon glyphicon-search"></i>
+              </button>
+            </div>
+            <!-- TODO <div class="collapse navbar-collapse" id="navbar-collapse2">
+              <ul class="nav navbar-nav navbar-right">
+                 <li class="active"><a href="#">Resources</a></li>
+                 <li><a href="#loginModal" role="button" data-toggle="modal">Blog</a></li>
+                 <li><a href="#aboutModal" role="button" data-toggle="modal">About</a></li>
+               </ul>
+            </div> -->
+         </div> 
+    </nav>
+
+    <div class="navbar navbar-default" id="subnav" style="min-height: 40px!important;">
+        <div class="col-md-12">
+            <div class="navbar-header" style="height: 40px;">
+              <h4 style="color: #666;margin-left: 20px;">Curated list of resources for learning how to Angular2</h4>
+            </div>  
+         </div> 
+    </div>
+
+    <!--main-->
+    <div class="container" id="main">
+      <div class="row">
+          <!--articles-->
+          <div class='col-md-6 col-sm-6'>
+            <div class="panel panel-default">
+              <div class="panel-heading"><!-- TODO <a href="#" class="pull-right">View all</a> --> <h4>Angular2 Articles</h4></div>
+                <div class="panel-body">
+                  <ol>
+                    {{#each articles}}
+                    <li><img width="16px" src="{{img}}" style="margin-right:4px"><a target="new" href="{{url}}">{{name}}</a></li>
+                    {{/each}}
+                  </ol>
+                </div>
+              </div>
+          </div>
+          <!--tutorials-->
+          <div class='col-md-6 col-sm-6'>
+            <div class="panel panel-default">
+              <div class="panel-heading"><!-- TODO <a href="#" class="pull-right">View all</a> --> <h4>Angular2 Tutorials</h4></div>
+                <div class="panel-body">
+                  <ol>
+                    {{#each tutorials}}
+                    <li><img width="16px" src="{{img}}" style="margin-right:4px"><a target="new" href="{{url}}">{{name}}</a></li>
+                    {{/each}}
+                  </ol>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <!--ADS-->
+          <div class='col-md-6 col-sm-6'>
+            <div class="panel panel-default" style="height: 283px;">
+              <div class="panel-body" style="text-align: center; overflow: hidden;">
+                <iframe width="400" height="250" src="https://www.youtube.com/embed/HmWm21cCAXM" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <!--videos-->
+          <div class='col-md-6 col-sm-6'>
+            <div class="panel panel-default">
+              <div class="panel-heading"><!-- TODO <a href="#" class="pull-right">View all</a> --> <h4>Angular2 Videos</h4></div>
+                <div class="panel-body">
+                  <ol>
+                    {{#each videos}}
+                    <li><img width="16px" src="{{img}}" style="margin-right:4px"><a target="new" href="{{url}}">{{name}}</a></li>
+                    {{/each}}
+                  </ol>
+                </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="row">
+          <!--Featured article 1-->
+          <div class='col-md-12 col-sm-12'>
+            <div class="panel panel-default">
+              <div class="panel-heading"><h4>Featured Article</h4></div>
+              <div class="panel-body">
+                <p><img src="{{featuredArticle.img}}" class="img-circle pull-left"> <a target="new" href="{{featuredArticle.url}}">{{featuredArticle.name}}</a> ({{featuredArticle.author}})<div class="clearfix"></div><hr>{{featuredArticle.safeContent}}</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="row">
+          <!--Featured article 2-->
+          <div class='col-md-12 col-sm-12'>
+            <div class="panel panel-default">
+              <div class="panel-heading"><h4>Featured Repository</h4></div>
+              <div class="panel-body">
+                <p><img src="{{featuredRepo.img}}" class="img-circle pull-left"> <a target="new" href="{{featuredRepo.url}}">{{featuredRepo.name}}</a> ({{featuredRepo.author}})<div class="clearfix"></div><hr>{{featuredRepo.safeContent}}</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?autoload=true&amp;skin=desert&amp;lang=css" defer="defer"></script>
+      <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-49206459-1', 'auto');
+      ga('send', 'pageview');
+    </script>

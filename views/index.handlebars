@@ -1,9 +1,7 @@
     <nav class="navbar navbar-fixed-top header">
       <div class="col-md-12">
             <div class="navbar-header">
-              <a href="/" class="navbar-brand" style="padding-top: 10px;"><img src="img/angular.png" height="30px"/>angular2.com</a>
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse1">
-              <i class="glyphicon glyphicon-search"></i>
+              <a href="/" class="navbar-brand" style="padding-top: 10px;"><img src="img/angular.png" height="30px"/>&nbsp;&nbsp;angular2.com</a>
               </button>
             </div>
             <!-- TODO <div class="collapse navbar-collapse" id="navbar-collapse2">
@@ -16,22 +14,18 @@
          </div> 
     </nav>
 
-    <div class="navbar navbar-default" id="subnav" style="min-height: 40px!important;">
-        <div class="col-md-12">
-            <div class="navbar-header" style="height: 40px;">
-              <h4 style="color: #666;margin-left: 20px;">Curated list of resources for learning how to Angular2</h4>
-            </div>  
-         </div> 
+    <div class=" navbar-default" id="subnav">
+      <h4 class="motto">Curated list of resources for learning how to Angular2</h4>
     </div>
 
     <!--main-->
     <div class="container" id="main">
       <div class="row">
           <!--articles-->
-          <div class='col-md-6 col-sm-6'>
-            <div class="panel panel-default">
+          <div class='col-md-4 col-sm-4'>
+            <div class="panel panel-default small-card">
               <div class="panel-heading"><!-- TODO <a href="#" class="pull-right">View all</a> --> <h4>Angular2 Articles</h4></div>
-                <div class="panel-body">
+                <div>
                   <ol>
                     {{#each articles}}
                     <li><img width="16px" src="{{img}}" style="margin-right:4px"><a target="new" href="{{url}}">{{name}}</a></li>
@@ -41,10 +35,10 @@
               </div>
           </div>
           <!--tutorials-->
-          <div class='col-md-6 col-sm-6'>
-            <div class="panel panel-default">
+          <div class='col-md-4 col-sm-4'>
+            <div class="panel panel-default small-card">
               <div class="panel-heading"><!-- TODO <a href="#" class="pull-right">View all</a> --> <h4>Angular2 Tutorials</h4></div>
-                <div class="panel-body">
+                <div>
                   <ol>
                     {{#each tutorials}}
                     <li><img width="16px" src="{{img}}" style="margin-right:4px"><a target="new" href="{{url}}">{{name}}</a></li>
@@ -53,21 +47,11 @@
                 </div>
               </div>
           </div>
-      </div>
-      <div class="row">
-          <!--ADS-->
-          <div class='col-md-6 col-sm-6'>
-            <div class="panel panel-default" style="height: 283px;">
-              <div class="panel-body" style="text-align: center; overflow: hidden;">
-                <iframe width="400" height="250" src="https://www.youtube.com/embed/HmWm21cCAXM" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
           <!--videos-->
-          <div class='col-md-6 col-sm-6'>
-            <div class="panel panel-default">
+          <div class='col-md-4 col-sm-4'>
+            <div class="panel panel-default small-card">
               <div class="panel-heading"><!-- TODO <a href="#" class="pull-right">View all</a> --> <h4>Angular2 Videos</h4></div>
-                <div class="panel-body">
+                <div>
                   <ol>
                     {{#each videos}}
                     <li><img width="16px" src="{{img}}" style="margin-right:4px"><a target="new" href="{{url}}">{{name}}</a></li>
@@ -79,12 +63,32 @@
       </div>
 
       <div class="row">
+          <!-- ng-europe -->
+          <div class='col-md-12 col-sm-12'>
+              <div class="well">
+                <h4>{{videoSet.name}}</h4>
+                <p>{{videoSet.description}}</p>
+                <div class="row">
+                  {{#each videoSet.videos}}
+                  <div class="col-md-3 col-sm-6 col-xs-12 video-preview">
+                    <a href="{{url}}" target="_blank">
+                      <img src="{{img}}" height="100px" >
+                      <p class="video-title">{{name}}</p>
+                    </a>
+                  </div>
+                  {{/each}}
+                </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="row">
           <!--Featured article 1-->
           <div class='col-md-12 col-sm-12'>
             <div class="panel panel-default">
               <div class="panel-heading"><h4>Featured Article</h4></div>
               <div class="panel-body">
-                <p><img src="{{featuredArticle.img}}" class="img-circle pull-left"> <a target="new" href="{{featuredArticle.url}}">{{featuredArticle.name}}</a> ({{featuredArticle.author}})<div class="clearfix"></div><hr>{{featuredArticle.safeContent}}</p>
+                <p><img src="{{featuredArticle.img}}" class="img-circle pull-right"> <a target="new" href="{{featuredArticle.url}}">{{featuredArticle.name}}</a><br/><br/> ({{featuredArticle.author}})<div class="clearfix"></div><hr>{{featuredArticle.safeContent}}</p>
               </div>
             </div>
           </div>
@@ -96,11 +100,12 @@
             <div class="panel panel-default">
               <div class="panel-heading"><h4>Featured Repository</h4></div>
               <div class="panel-body">
-                <p><img src="{{featuredRepo.img}}" class="img-circle pull-left"> <a target="new" href="{{featuredRepo.url}}">{{featuredRepo.name}}</a> ({{featuredRepo.author}})<div class="clearfix"></div><hr>{{featuredRepo.safeContent}}</p>
+                <p><img src="{{featuredRepo.img}}" class="img-circle pull-right"> <a target="new" href="{{featuredRepo.url}}">{{featuredRepo.name}}</a><br/><br/> ({{featuredRepo.author}})<div class="clearfix"></div><hr>{{featuredRepo.safeContent}}</p>
               </div>
             </div>
           </div>
       </div>
+      
     </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>

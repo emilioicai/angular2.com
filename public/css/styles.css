@@ -1,6 +1,6 @@
 /*
 A custom Bootstrap 3.2 'Google Plus style' theme
-from http://bootply.com
+from http://www.bootply.com/render/90113
 
 This CSS code should follow the 'bootstrap.css'
 in your HTML file.
@@ -93,21 +93,39 @@ h3,h4,h5 {
  width:100%;
 }
 
-@media(max-width:767px){
-	#subnav {
-	  display:none;
-	}
+.motto { 
+ border:0; 
+ border-bottom-width:0;
+ padding-bottom:0;
+ margin-left: 20px;
+ color: #888;
 }
-@media(min-width:768px){
 
+.small-card {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
 }
-@media(min-width:992px){
-	#ad-container {
-		padding-left: 72px;
-	}
-}
-@media(min-width:1200px){}
 
 #main {
  padding-top:120px;
+}
+
+.video-preview {
+	text-align: center;
+}
+
+.video-title {
+	text-align: center;
+	padding-top: 10px;
+}
+
+li {
+	margin: 5px 0;
+}
+
+@media(max-width:767px){
+	#subnav > h4 {
+	  font-size: 12px;
+	}
 }

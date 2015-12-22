@@ -58,5 +58,9 @@
 			{"name": "Best security in Angular", "url": "https://www.youtube.com/watch?v=lDb_GANDR8U", "img": "/img/video3.png"},
 			{"name": "The new router for Angular", "url": "https://www.youtube.com/watch?v=h1P_Vh4gSQY", "img": "/img/video4.png"}
 		]
+	},
+	"booksSet": {
+		"name": "Recommended books",
+		"description": "The first set of books for learning Angular 2 is out. This is the few we can recommend at the moment:"
 	}
 }

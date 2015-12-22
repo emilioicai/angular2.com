@@ -26,7 +26,8 @@ app.get('/', function(req, res){
 		videos: materials.videos,
 		featuredArticle: materials.featuredArticle,
 		featuredRepo: materials.featuredRepo,
-		videoSet: materials.videoSet
+		videoSet: materials.videoSet,
+		booksSet: materials.booksSet
 	});
 });
 

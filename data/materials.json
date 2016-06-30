@@ -1,46 +1,46 @@
 {
 	"articles": [
-		{"img": "img/favicon.5.ico", "url": "http://blog.mgechev.com/2015/04/06/angular2-first-impressions/", "name": "Angular2 - First Impressions"},
 		{"img": "img/favicon.1.ico", "url": "http://eisenbergeffect.bluespire.com/all-about-angular-2-0/", "name": "All About Angular 2.0"},
-		{"img": "img/favicon.2.ico", "url": "http://www.intridea.com/blog/2015/3/24/angularjs-2-0-crazy-like-a-fox", "name": "AngularJS 2.0: Crazy Like A Fox?"},
+		{"img": "img/favicon.1.ico", "url": "http://orizens.com/wp/topics/migrating-a-component-to-angular-2-from-angular-1-x-es2015/", "name": "Migrating From Angular1 to Angular2"},
+		{"img": "img/favicon.5.ico", "url": "https://speakerdeck.com/cironunes/the-awesomeness-of-angular-2", "name": "The awesomeness of Angular 2"},
+		{"img": "img/favicon.2.ico", "url": "https://www.oreilly.com/ideas/angular-2-and-the-future-of-html5-apps", "name": "Angular 2 and the future of HTML5 apps"},
+		{"img": "img/favicon.1.ico", "url": "http://blog.jhades.org/introduction-to-angular2-the-main-goals/", "name": "The main goals of Angular 2"},
 		{"img": "img/favicon.4.ico", "url": "https://www.airpair.com/angularjs/posts/preparing-for-the-future-of-angularjs", "name": "Preparing for the future of AngularJS"},
 		{"img": "http://33.media.tumblr.com/avatar_b1460577473e_128.png", "url": "http://victorsavkin.com/post/118372404541/the-core-concepts-of-angular-2", "name": "The core concepts of Angular2"},
-		{"img": "img/favicon.1.ico", "url": "http://unobfuscated.blogspot.co.uk/2015/03/posts-from-edge-angular-2-shadow-dom.html", "name": "Shadow DOM Emulation"},
 		{"img": "img/favicon.3.ico", "url": "http://angularjs.blogspot.co.uk/2015/03/forms-in-angular-2.html", "name": "Forms in Angular 2"},
-		{"img": "img/favicon.1.ico", "url": "http://blog.jhades.org/introduction-to-angular2-the-main-goals/", "name": "The main goals of Angular 2"},
 		{"img": "img/favicon.6.ico", "url": "http://www.beyondjava.net/blog/angularjs-2-0-sneak-preview-data-binding/", "name": "AngularJS 2.0: Data Binding"},
 		{"img": "img/favicon.7.png", "url": "http://blog.thoughtram.io/angular/2015/05/18/dependency-injection-in-angular-2.html", "name": "Dependency Injection in Angular 2"}
 	],
 	"tutorials": [
+		{"img": "http://33.media.tumblr.com/avatar_b1460577473e_128.png", "url": "http://blog.thoughtram.io/exploring-angular-2/", "name": "Exploring Angular 2"},
 		{"img": "img/favicon.1.ico", "url": "http://paislee.io/migrating-to-angularjs-2-0/", "name": "Migrating to AngularJS 2.0"},
+		{"img": "http://unobfuscated.blogspot.nl/favicon.ico", "url": "https://angular.io/cheatsheet", "name": "Angular 2 Cheat Sheet"},
 		{"img": "img/favicon.3.ico", "url": "https://angular.io/docs/js/latest/quickstart.html", "name": "5 min quickstart"},
-		{"img": "http://33.media.tumblr.com/avatar_b1460577473e_128.png", "url": "http://victorsavkin.com/post/114168430846/two-phases-of-angular-2-applications", "name": "2 Phases of Angular2 apps"},
+		{"img": "https://github.com/favicon.ico", "url": "https://egghead.io/lessons/angularjs-angular-2-hello-world-es5", "name": "Angular 2 Hello World (es5)"},
 		{"img": "http://blog.ionic.io/wp-content/themes/ionic/favicon.ico", "url": "http://blog.ionic.io/angular-2-series-components/", "name": "Ionic Series: Components"},
 		{"img": "img/favicon.8.ico", "url": "http://www.htmlxprs.com/post/54/creating-a-super-simple-todo-app-using-angular-2-tutorial", "name": "Simple Todo app Using Angular 2"},
-		{"img": "https://github.com/favicon.ico", "url": "https://github.com/gionkunz/angular2-sandbox", "name": "AngularJS 2 Sandbox"},
 		{"img": "img/favicon.7.png", "url": "http://blog.thoughtram.io/angular/2015/04/09/developing-a-tabs-component-in-angular-2.html", "name": "Tabs component in Angular 2"},
 		{"img": "img/favicon.1.ico", "url": "http://angular-tips.com/blog/2015/05/an-introduction-to-angular-2/", "name": "An Introduction to Angular 2"},
-		{"img": "img/favicon.1.ico", "url": "http://thejackalofjavascript.com/getting-started-with-angular-2-0/", "name": "Getting Started with Angular 2.0"},
-		{"img": "http://unobfuscated.blogspot.nl/favicon.ico", "url": "http://unobfuscated.blogspot.nl/2015/03/posts-from-edge-injecting-parents-into.html", "name": "Injecting Parents into Components"}
+		{"img": "img/favicon.1.ico", "url": "http://thejackalofjavascript.com/getting-started-with-angular-2-0/", "name": "Getting Started with Angular 2.0"}
 	],
 	"videos": [
-		{"img": "img/favicon.9.ico", "url": "https://www.youtube.com/watch?v=uD6Okha_Yj0", "name": "An Angular2 Todo App"},
+		{"img": "https://egghead.io/favicon.ico", "url": "https://egghead.io/lessons/angularjs-angular-2-hello-world-es5", "name": "Hello World (es5)"},
 		{"img": "img/favicon.9.ico", "url": "https://www.youtube.com/watch?v=HmWm21cCAXM", "name": "Getting started with Angular 2"},
-		{"img": "img/favicon.9.ico", "url": "https://www.youtube.com/watch?v=4C4bmDOV5hk", "name": "Angular 2 Forms"},
+		{"img": "img/favicon.9.ico", "url": "https://www.youtube.com/watch?v=uD6Okha_Yj0", "name": "An Angular2 Todo App"},
 		{"img": "https://egghead.io/favicon.ico", "url": "https://egghead.io/lessons/angularjs-angular-2-template-syntax", "name": "Template Syntax"},
 		{"img": "img/favicon.9.ico", "url": "https://www.youtube.com/watch?v=gE4hyIfUD-A", "name": "Component-based Directives"},
 		{"img": "img/favicon.9.ico", "url": "https://www.youtube.com/watch?v=X5JD5dtsVq8", "name": "Features and Beyond"},
-		{"img": "img/favicon.9.ico", "url": "https://www.youtube.com/watch?v=-dMBcqwvYA0", "name": "ng-conf 2015 Keynote 2"},
+		{"img": "img/favicon.9.ico", "url": "https://angularu.com/VideoSession/2015sf/migrating-to-angular2", "name": "Migrating Angular 1 to Angular 2"},
 		{"img": "https://d1n4bbuvjcnilu.cloudfront.net/Images/favicons/apple-touch-icon-57x57.png?v=635636111958773961", "url": "https://angularu.com/Video/2015sf/misko-hevery-talks-about-databinding-in-angular-2", "name": "Databindinging in Angular2"},
-		{"img": "https://egghead.io/favicon.ico", "url": "https://egghead.io/lessons/angularjs-angular-2-hello-world-es5", "name": "Hello World (es5)"},
+		{"img": "img/favicon.9.ico", "url": "https://www.youtube.com/watch?v=sfV0ApyN5fM", "name": "Angular 2 Router"},
 		{"img": "img/favicon.9.ico", "url": "https://www.youtube.com/watch?v=zuMmCCDk6Fc&feature=youtu.be", "name": "What's coming in Angular 2.0"}
 	],
 	"featuredArticle": {
-		"img": "http://blog.thoughtram.io/css/images/avatar_pascal.jpeg",
-		"name": "Dependency Injection in Angular 2",
-		"url": "http://blog.thoughtram.io/angular/2015/05/18/dependency-injection-in-angular-2.html",
-		"author": "Pascal Precht",
-		"content": "Dependency Injection (DI) is a software design pattern that deals with how components get hold of their dependencies.<br>The Angular injector subsystem is in charge of creating components, resolving their dependencies, and providing them to other components as requested.<br><br>In this article Pascal goes through a new way of working with DI in Angular2 and which problems are solved by the system introduced in Angular2."
+		"img": "http://orizens.com/wp/wp-content/uploads/2015/12/profile-2016.jpg",
+		"name": "Migrating A Component To Angular 2: From Angular 1.x",
+		"url": "http://orizens.com/wp/topics/migrating-a-component-to-angular-2-from-angular-1-x-es2015/",
+		"author": "Oren Farhi",
+		"content": "This article is a good insight about how to get started with Angular 2 having a set of components already implemented with Angular 1. In this example, Oren will convert the youtube-media component from Angular1 and ES2015 to Angular2 and typescript<br><br>This example covers the main pain points in magrations to Angular2 from a very practical point of view. Definitely something to keep an eye on when doing a migration for the first time."
 	},
 	"featuredRepo": {
 		"img": "https://avatars2.githubusercontent.com/u/2203704?v=3&s=400",
@@ -50,13 +50,13 @@
 		"content": "A very simple sandbox to get your hands dirty with AngularJS 2.0 Alpha.<br>This repository contains a snapshot of AngularJS 2.0 (Currently 2.0.0-alpha.20) as well as SystemJS and the Traceur runtime.<br><br>Currently AngularJS 2.0 is relying on AtScript style de-sugaring of meta annotations which is supported in Traceur 0.0.87 under the annotations option. This might change in the future depending on TypeScript adoption and / or ES7 progress with meta annotations / decorators.<br><br>This repository is only for demo purpose and for exploring the new AngularJS version. It does not contain any optimizations and the task runner is only there to bootstrap a web server with livereload."
 	},
 	"videoSet": {
-		"name": "Ng - Europe 2014",
-		"description": "Every year this European conference gathers people from around the world with one passion in common: Angular JS. In the 2014 edition one of the hottest topics was Angular 2. Here are the most popular presentations on that conference:",
+		"name": "Ng - Europe 2015",
+		"description": "Every year this European conference gathers people from around the world with one passion in common: Angular JS. In the 2015 edition Angular 2 was a very stablished topic. Here are the most popular presentations on that conference:",
 		"videos": [
-			{"name": "Material Design in Angular JS", "url": "https://www.youtube.com/watch?v=2qiyhkQVyxE", "img": "/img/video1.png"},
-			{"name": "The state of Angular", "url": "https://www.youtube.com/watch?v=c5HSqDLfpW0", "img": "/img/video2.png"},
-			{"name": "Best security in Angular", "url": "https://www.youtube.com/watch?v=lDb_GANDR8U", "img": "/img/video3.png"},
-			{"name": "The new router for Angular", "url": "https://www.youtube.com/watch?v=h1P_Vh4gSQY", "img": "/img/video4.png"}
+			{"name": "Angular 1.3 meets Angular 2.0", "url": "https://www.youtube.com/watch?v=pai1ZdFI2dg&list=PLw5h0DiJ-9PDF2JZ-0hCtEHYd0dRbvQWs&index=24", "img": "/img/video1.png"},
+			{"name": "Angular + React = Speed", "url": "https://www.youtube.com/watch?v=XQM0K6YG18s&list=PLw5h0DiJ-9PDF2JZ-0hCtEHYd0dRbvQWs&index=33", "img": "/img/video2.png"},
+			{"name": "TypeScript and ES6", "url": "https://www.youtube.com/watch?v=U7NYTKgkZgo&list=PLw5h0DiJ-9PDF2JZ-0hCtEHYd0dRbvQWs&index=8", "img": "/img/video3.png"},
+			{"name": "Fast from the Start", "url": "https://www.youtube.com/watch?v=x1PJn5qMUT4&index=5&list=PLw5h0DiJ-9PDF2JZ-0hCtEHYd0dRbvQWs", "img": "/img/video4.png"}
 		]
 	},
 	"booksSet": {

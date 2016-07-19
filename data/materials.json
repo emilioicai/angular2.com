@@ -2,20 +2,20 @@
 	"articles": [
 		{"img": "img/favicon.1.ico", "url": "http://eisenbergeffect.bluespire.com/all-about-angular-2-0/", "name": "All About Angular 2.0"},
 		{"img": "img/favicon.1.ico", "url": "http://orizens.com/wp/topics/migrating-a-component-to-angular-2-from-angular-1-x-es2015/", "name": "Migrating From Angular1 to Angular2"},
-		{"img": "img/favicon.5.ico", "url": "https://speakerdeck.com/cironunes/the-awesomeness-of-angular-2", "name": "The awesomeness of Angular 2"},
 		{"img": "img/favicon.2.ico", "url": "https://www.oreilly.com/ideas/angular-2-and-the-future-of-html5-apps", "name": "Angular 2 and the future of HTML5 apps"},
 		{"img": "img/favicon.1.ico", "url": "http://blog.jhades.org/introduction-to-angular2-the-main-goals/", "name": "The main goals of Angular 2"},
 		{"img": "img/favicon.4.ico", "url": "https://www.airpair.com/angularjs/posts/preparing-for-the-future-of-angularjs", "name": "Preparing for the future of AngularJS"},
+		{"img": "img/favicon.5.ico", "url": "https://speakerdeck.com/cironunes/the-awesomeness-of-angular-2", "name": "The awesomeness of Angular 2"},
 		{"img": "http://33.media.tumblr.com/avatar_b1460577473e_128.png", "url": "http://victorsavkin.com/post/118372404541/the-core-concepts-of-angular-2", "name": "The core concepts of Angular2"},
 		{"img": "img/favicon.3.ico", "url": "http://angularjs.blogspot.co.uk/2015/03/forms-in-angular-2.html", "name": "Forms in Angular 2"},
 		{"img": "img/favicon.6.ico", "url": "http://www.beyondjava.net/blog/angularjs-2-0-sneak-preview-data-binding/", "name": "AngularJS 2.0: Data Binding"},
 		{"img": "img/favicon.7.png", "url": "http://blog.thoughtram.io/angular/2015/05/18/dependency-injection-in-angular-2.html", "name": "Dependency Injection in Angular 2"}
 	],
 	"tutorials": [
+		{"img": "img/favicon.3.ico", "url": "https://angular.io/docs/js/latest/quickstart.html", "name": "5 min quickstart"},
+		{"img": "http://unobfuscated.blogspot.nl/favicon.ico", "url": "https://angular.io/cheatsheet", "name": "Angular 2 Cheat Sheet"},
 		{"img": "http://33.media.tumblr.com/avatar_b1460577473e_128.png", "url": "http://blog.thoughtram.io/exploring-angular-2/", "name": "Exploring Angular 2"},
 		{"img": "img/favicon.1.ico", "url": "http://paislee.io/migrating-to-angularjs-2-0/", "name": "Migrating to AngularJS 2.0"},
-		{"img": "http://unobfuscated.blogspot.nl/favicon.ico", "url": "https://angular.io/cheatsheet", "name": "Angular 2 Cheat Sheet"},
-		{"img": "img/favicon.3.ico", "url": "https://angular.io/docs/js/latest/quickstart.html", "name": "5 min quickstart"},
 		{"img": "https://github.com/favicon.ico", "url": "https://egghead.io/lessons/angularjs-angular-2-hello-world-es5", "name": "Angular 2 Hello World (es5)"},
 		{"img": "http://blog.ionic.io/wp-content/themes/ionic/favicon.ico", "url": "http://blog.ionic.io/angular-2-series-components/", "name": "Ionic Series: Components"},
 		{"img": "img/favicon.8.ico", "url": "http://www.htmlxprs.com/post/54/creating-a-super-simple-todo-app-using-angular-2-tutorial", "name": "Simple Todo app Using Angular 2"},
@@ -50,8 +50,8 @@
 		"content": "A very simple sandbox to get your hands dirty with AngularJS 2.0 Alpha.<br>This repository contains a snapshot of AngularJS 2.0 (Currently 2.0.0-alpha.20) as well as SystemJS and the Traceur runtime.<br><br>Currently AngularJS 2.0 is relying on AtScript style de-sugaring of meta annotations which is supported in Traceur 0.0.87 under the annotations option. This might change in the future depending on TypeScript adoption and / or ES7 progress with meta annotations / decorators.<br><br>This repository is only for demo purpose and for exploring the new AngularJS version. It does not contain any optimizations and the task runner is only there to bootstrap a web server with livereload."
 	},
 	"videoSet": {
-		"name": "Ng - Europe 2015",
-		"description": "Every year this European conference gathers people from around the world with one passion in common: Angular JS. In the 2015 edition Angular 2 was a very stablished topic. Here are the most popular presentations on that conference:",
+		"name": "Angular Conference 2015 - Videos",
+		"description": "Every year this European conference gathers people from around the world with one passion in common: Angular JS. As the previous year, Angular 2 was the hot topic but we noticed a lot of concepts consolidation. You can find here a selection of the (imho) most interesting talks:",
 		"videos": [
 			{"name": "Angular 1.3 meets Angular 2.0", "url": "https://www.youtube.com/watch?v=pai1ZdFI2dg&list=PLw5h0DiJ-9PDF2JZ-0hCtEHYd0dRbvQWs&index=24", "img": "/img/video1.png"},
 			{"name": "Angular + React = Speed", "url": "https://www.youtube.com/watch?v=XQM0K6YG18s&list=PLw5h0DiJ-9PDF2JZ-0hCtEHYd0dRbvQWs&index=33", "img": "/img/video2.png"},

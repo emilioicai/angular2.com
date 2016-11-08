@@ -115,7 +115,7 @@
             <div class="panel panel-default">
               <div class="panel-heading"><h4>Featured Article</h4></div>
               <div class="panel-body">
-                <p><img src="{{featuredArticle.img}}" class="img-circle pull-right"> <a target="new" href="{{featuredArticle.url}}">{{featuredArticle.name}}</a><br/><br/> ({{featuredArticle.author}})<div class="clearfix"></div><hr>{{featuredArticle.safeContent}}</p>
+                <p><img src="{{featuredArticle.img}}" class="img-circle pull-right"> <a target="new" href="{{featuredArticle.url}}" onclick="mixpanel.track('featured article click');">{{featuredArticle.name}}</a><br/><br/> ({{featuredArticle.author}})<div class="clearfix"></div><hr>{{featuredArticle.safeContent}}</p>
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@
             <div class="panel panel-default">
               <div class="panel-heading"><h4>Featured Repository</h4></div>
               <div class="panel-body">
-                <p><img src="{{featuredRepo.img}}" class="img-circle pull-right"> <a target="new" href="{{featuredRepo.url}}">{{featuredRepo.name}}</a><br/><br/> ({{featuredRepo.author}})<div class="clearfix"></div><hr>{{featuredRepo.safeContent}}</p>
+                <p><img src="{{featuredRepo.img}}" class="img-circle pull-right"> <a target="new" href="{{featuredRepo.url}}" onclick="mixpanel.track('featured repo click');">{{featuredRepo.name}}</a><br/><br/> ({{featuredRepo.author}})<div class="clearfix"></div><hr>{{featuredRepo.safeContent}}</p>
               </div>
             </div>
           </div>
